@@ -1,0 +1,181 @@
+Main First Network: 193.158.1.0
+Data Science: 212 Hosts usable -> 256 host -> 254 for PC's
+Network Router: 193.158.1.0
+Brodcast Router: 193.158.1.255
+Subnet Mask 254: 255.255.255.0
+First: 193.158.1.1
+Last: 193.158.1.254
+_______________________________________________________________________________
+Data Science Switchs: 8 Switchs -> 212/8 -> from Switch 1 to Switch 7 = 28 host
+Switch 8 = 16 host
+
+Main NIP = 193.158.1.0
+Main Gateway = 193.158.1.254
+Main Broadcast = 193.158.1.255
+
+Sw1: 
+	First: 193.158.1.1
+	Last: 193.158.1.28
+Sw2: 
+	First: 193.158.1.29
+	Last: 193.158.1.56
+Sw3: 
+	First: 193.158.1.57
+	Last: 193.158.1.84
+Sw3: 
+	First: 193.158.1.85
+	Last: 193.158.1.112
+Sw4: 
+	First: 193.158.1.113
+	Last: 193.158.1.140
+Sw5: 
+	First: 193.158.1.141
+	Last: 193.158.1.168
+Sw6: 
+	First: 193.158.1.169
+	Last: 193.158.1.196
+Sw7: 
+	First: 193.158.1.197
+	Last: 193.158.1.224
+Sw8: 
+	First: 193.158.1.225
+	Last: 193.158.1.232
+_______________________________________________________________________________
+Main First Network: 193.158.2.0
+Media : 10 Hosts usable -> 16 host -> 14 for PC's
+Network Router: 193.158.2.0
+Brodcast Router: 193.158.2.15
+Subnet Mask 14: 255.255.255.240
+First: 193.158.2.1
+Last: 193.158.2.14
+_______________________________________________________________________________
+Media Switchs: 5 Switchs -> 10/5 -> from Switch 1 to Switch 5 = 2 host
+
+Main NIP = 193.158.2.0
+Main Gateway = 193.158.2.14
+Main Broadcast = 193.158.2.15
+Sw1: 
+	First: 193.158.2.1
+	Last: 193.158.2.2
+Sw2: 
+	First: 193.158.2.3
+	Last: 193.158.2.4
+Sw3: 
+	First: 193.158.2.5
+	Last: 193.158.2.6
+Sw4: 
+	First: 193.158.2.7
+	Last: 193.158.2.8
+Sw5: 
+	First: 193.158.2.9
+	Last: 193.158.2.10
+_______________________________________________________________________________
+Main First Network: 193.158.2.0
+CyberSecurity: 36 Hosts usable -> 64 host -> 62 for PC's
+Network Router: 193.158.2.16
+Brodcast Router: 193.158.2.79
+Subnet Mask 14: 255.255.255.192
+First: 193.158.2.17
+Last: 193.158.2.78
+_______________________________________________________________________________
+Cybersecurity: 36 host usable -> 7 switches -> from Switch 1 to Switch 6 = 5 Hosts
+Swtich 7 = 6 Hosts
+
+Main NIP = 193.158.2.16
+Main Gateway = 193.158.2.78
+Broadcast = 193.158.2.79
+
+Sw1: 
+	First: 193.158.2.17
+	Last: 193.158.2.21
+Sw2: 
+	First: 193.158.2.22
+	Last: 193.158.2.26
+Sw3: 
+	First: 193.158.2.27
+	Last: 193.158.2.31
+Sw4: 
+	First: 193.158.2.32
+	Last: 193.158.2.36
+Sw5: 
+	First: 193.158.2.37
+	Last: 193.158.2.41
+Sw6: 
+	First: 193.158.2.42
+	Last: 193.158.2.46
+Sw7: 
+	First: 193.158.2.47
+	Last: 193.158.2.52
+_______________________________________________________________________________
+Main First Network: 193.158.2.0
+Network Router: 193.158.2.80
+Brodcast Router: 193.158.2.143
+Subnet Mask 14: 255.255.255.192
+First: 193.158.2.81
+Last: 193.158.2.142
+_______________________________________________________________________________
+Intelligent Systems: 47 host usable -> 7 Switches -> from Switch 1 to Switch 6 = 7 hosts
+Switch 7: 5
+
+Main NIP = 193.158.2.80
+Main Gateway = 193.158.2.142
+Broadcast = 193.158.2.143
+
+Sw1: 
+	First: 193.158.2.81
+	Last: 193.158.2.87
+Sw2: 
+	First: 193.158.2.88
+	Last: 193.158.2.94
+Sw3: 
+	First: 193.158.2.95
+	Last: 193.158.2.101
+Sw4: 
+	First: 193.158.2.102
+	Last: 193.158.2.108
+Sw5: 
+	First: 193.158.2.109
+	Last: 193.158.2.115
+Sw6: 
+	First: 193.158.2.116
+	Last: 193.158.2.122
+Sw7: 
+	First: 193.158.2.123
+	Last: 193.158.2.127
+_______________________________________________________________________________
+Main First Network: 193.158.3.0
+Network Router: 193.158.2.0
+Brodcast Router: 193.158.2.129
+Subnet Mask 14: 255.255.255.128
+First: 193.158.2.1
+Last: 193.158.2.128
+_______________________________________________________________________________
+Business: 125 host usable -> 7 Switches -> from Switch 1 to Switch 6 = 18 hosts
+Switch 7: 17
+
+Main NIP = 193.158.2.0
+Main Gateway = 193.158.2.128
+Broadcast = 193.158.2.129
+
+Sw1: 
+	First: 193.158.2.1
+	Last: 193.158.2.18
+Sw2: 
+	First: 193.158.2.19
+	Last: 193.158.2.36
+Sw3: 
+	First: 193.158.2.37
+	Last: 193.158.2.54
+Sw4: 
+	First: 193.158.2.55
+	Last: 193.158.2.72
+Sw5: 
+	First: 193.158.2.73
+	Last: 193.158.2.90
+Sw6: 
+	First: 193.158.2.91
+	Last: 193.158.2.108
+Sw7: 
+	First: 193.158.2.109
+	Last: 193.158.2.125
+_______________________________________________________________________________
