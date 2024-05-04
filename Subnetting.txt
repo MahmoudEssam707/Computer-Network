@@ -1,181 +1,144 @@
-Main First Network: 193.158.1.0
-Data Science: 212 Hosts usable -> 256 host -> 254 for PC's
-Network Router: 193.158.1.0
-Brodcast Router: 193.158.1.255
-Subnet Mask 254: 255.255.255.0
-First: 193.158.1.1
-Last: 193.158.1.254
-_______________________________________________________________________________
-Data Science Switchs: 8 Switchs -> 212/8 -> from Switch 1 to Switch 7 = 28 host
-Switch 8 = 16 host
-
-Main NIP = 193.158.1.0
-Main Gateway = 193.158.1.254
-Main Broadcast = 193.158.1.255
-
-Sw1: 
-	First: 193.158.1.1
-	Last: 193.158.1.28
-Sw2: 
-	First: 193.158.1.29
-	Last: 193.158.1.56
-Sw3: 
-	First: 193.158.1.57
-	Last: 193.158.1.84
-Sw3: 
-	First: 193.158.1.85
-	Last: 193.158.1.112
-Sw4: 
-	First: 193.158.1.113
-	Last: 193.158.1.140
-Sw5: 
-	First: 193.158.1.141
-	Last: 193.158.1.168
-Sw6: 
-	First: 193.158.1.169
-	Last: 193.158.1.196
-Sw7: 
-	First: 193.158.1.197
-	Last: 193.158.1.224
-Sw8: 
-	First: 193.158.1.225
-	Last: 193.158.1.232
-_______________________________________________________________________________
-Main First Network: 193.158.2.0
-Media : 10 Hosts usable -> 16 host -> 14 for PC's
-Network Router: 193.158.2.0
-Brodcast Router: 193.158.2.15
-Subnet Mask 14: 255.255.255.240
-First: 193.158.2.1
-Last: 193.158.2.14
-_______________________________________________________________________________
 Media Switchs: 5 Switchs -> 10/5 -> from Switch 1 to Switch 5 = 2 host
 
-Main NIP = 193.158.2.0
-Main Gateway = 193.158.2.14
-Main Broadcast = 193.158.2.15
-Sw1: 
-	First: 193.158.2.1
-	Last: 193.158.2.2
-Sw2: 
-	First: 193.158.2.3
-	Last: 193.158.2.4
-Sw3: 
-	First: 193.158.2.5
-	Last: 193.158.2.6
-Sw4: 
-	First: 193.158.2.7
-	Last: 193.158.2.8
-Sw5: 
-	First: 193.158.2.9
-	Last: 193.158.2.10
-_______________________________________________________________________________
-Main First Network: 193.158.2.0
-CyberSecurity: 36 Hosts usable -> 64 host -> 62 for PC's
-Network Router: 193.158.2.16
-Brodcast Router: 193.158.2.79
-Subnet Mask 14: 255.255.255.192
-First: 193.158.2.17
-Last: 193.158.2.78
-_______________________________________________________________________________
-Cybersecurity: 36 host usable -> 7 switches -> from Switch 1 to Switch 6 = 5 Hosts
-Swtich 7 = 6 Hosts
+Subnet Mask: 255.255.255.240 (/28), allowing for 16 addresses (14 usable).
+Network Address: 193.158.2.0
+Broadcast Address: 193.158.2.15
+Usable IP Range: 193.158.2.1 to 193.158.2.14
+Total Usable Hosts: 14
 
-Main NIP = 193.158.2.16
-Main Gateway = 193.158.2.78
-Broadcast = 193.158.2.79
+IP Allocation (2 hosts per switch):
+Switch 1 (Sw1):
+IP Range: 193.158.2.1 to 193.158.2.2
+Switch 2 (Sw2):
+IP Range: 193.158.2.3 to 193.158.2.4
+Switch 3 (Sw3):
+IP Range: 193.158.2.5 to 193.158.2.6
+Switch 4 (Sw4):
+IP Range: 193.158.2.7 to 193.158.2.8
+Switch 5 (Sw5):
+IP Range: 193.158.2.9 to 193.158.2.10
+________________________________________________________________________________________________________________________
+AI Switchs: 47
 
-Sw1: 
-	First: 193.158.2.17
-	Last: 193.158.2.21
-Sw2: 
-	First: 193.158.2.22
-	Last: 193.158.2.26
-Sw3: 
-	First: 193.158.2.27
-	Last: 193.158.2.31
-Sw4: 
-	First: 193.158.2.32
-	Last: 193.158.2.36
-Sw5: 
-	First: 193.158.2.37
-	Last: 193.158.2.41
-Sw6: 
-	First: 193.158.2.42
-	Last: 193.158.2.46
-Sw7: 
-	First: 193.158.2.47
-	Last: 193.158.2.52
-_______________________________________________________________________________
-Main First Network: 193.158.2.0
-Network Router: 193.158.2.80
-Brodcast Router: 193.158.2.143
-Subnet Mask 14: 255.255.255.192
-First: 193.158.2.81
-Last: 193.158.2.142
-_______________________________________________________________________________
-Intelligent Systems: 47 host usable -> 7 Switches -> from Switch 1 to Switch 6 = 7 hosts
-Switch 7: 5
+Subnet Mask: 255.255.255.192
+Network Address: 193.158.2.64
+Broadcast Address: 193.158.2.127
+Usable Host Range: 193.158.2.65 to 193.158.2.126
 
-Main NIP = 193.158.2.80
-Main Gateway = 193.158.2.142
-Broadcast = 193.158.2.143
+Switch 1: 193.158.2.65 to 193.158.2.71 (7)
+Switch 2: 193.158.2.72 to 193.158.2.78 (7)
+Switch 3: 193.158.2.79 to 193.158.2.85 (7)
+Switch 4: 193.158.2.86 to 193.158.2.92 (7)
+Switch 5: 193.158.2.93 to 193.158.2.99 (7)
+Switch 6: 193.158.2.100 to 193.158.2.106 (7)
+Switch 7: 193.158.2.107 to 193.158.2.111 (6)
+________________________________________________________________________________________________________________________________________________________
+Cybersecurity Switchs: 36
 
-Sw1: 
-	First: 193.158.2.81
-	Last: 193.158.2.87
-Sw2: 
-	First: 193.158.2.88
-	Last: 193.158.2.94
-Sw3: 
-	First: 193.158.2.95
-	Last: 193.158.2.101
-Sw4: 
-	First: 193.158.2.102
-	Last: 193.158.2.108
-Sw5: 
-	First: 193.158.2.109
-	Last: 193.158.2.115
-Sw6: 
-	First: 193.158.2.116
-	Last: 193.158.2.122
-Sw7: 
-	First: 193.158.2.123
-	Last: 193.158.2.127
-_______________________________________________________________________________
-Main First Network: 193.158.3.0
-Network Router: 193.158.2.0
-Brodcast Router: 193.158.2.129
-Subnet Mask 14: 255.255.255.128
-First: 193.158.2.1
-Last: 193.158.2.128
-_______________________________________________________________________________
-Business: 125 host usable -> 7 Switches -> from Switch 1 to Switch 6 = 18 hosts
-Switch 7: 17
+Subnet Mask: 255.255.255.192 (/26)
+Network Address: 193.158.2.128
+Broadcast Address: 193.158.2.191
+Usable Host Range: 193.158.2.129 to 193.158.2.190
+Total Usable Hosts: 62
 
-Main NIP = 193.158.2.0
-Main Gateway = 193.158.2.128
-Broadcast = 193.158.2.129
+Switch 1 (Sw1):
+Host IP Range: 193.158.2.129 to 193.158.2.133 (6)
+Switch 2 (Sw2):
+Host IP Range: 193.158.2.134 to 193.158.2.138 (6)
+Switch 3 (Sw3):
+Host IP Range: 193.158.2.139 to 193.158.2.143 (6)
+Switch 4 (Sw4):
+Host IP Range: 193.158.2.144 to 193.158.2.148 (6)
+Switch 5 (Sw5):
+Host IP Range: 193.158.2.149 to 193.158.2.153 (6)
+Switch 6 (Sw6):
+Host IP Range: 193.158.2.154 to 193.158.2.158 (6)
+Switch 7 (Sw7):
+Host IP Range: 193.158.2.159 to 193.158.2.164 (7)
+________________________________________________________________________________________________________________________________________________________
+Business Switchs:
+Switches 1 to 6: 18 hosts each
+Switch 7: 17 hosts
 
-Sw1: 
-	First: 193.158.2.1
-	Last: 193.158.2.18
-Sw2: 
-	First: 193.158.2.19
-	Last: 193.158.2.36
-Sw3: 
-	First: 193.158.2.37
-	Last: 193.158.2.54
-Sw4: 
-	First: 193.158.2.55
-	Last: 193.158.2.72
-Sw5: 
-	First: 193.158.2.73
-	Last: 193.158.2.90
-Sw6: 
-	First: 193.158.2.91
-	Last: 193.158.2.108
-Sw7: 
-	First: 193.158.2.109
-	Last: 193.158.2.125
-_______________________________________________________________________________
+Subnet Mask: 255.255.255.128 (/25)
+Network Address: 193.158.2.128
+Broadcast Address: 193.158.2.255
+Usable Host Range: 193.158.2.129 to 193.158.2.254
+Total Usable Hosts: 126
+
+Switch 1 (Sw1):
+IP Range: 193.158.2.129 to 193.158.2.146 (18 hosts)
+Switch 2 (Sw2):
+IP Range: 193.158.2.147 to 193.158.2.164 (18 hosts)
+Switch 3 (Sw3):
+IP Range: 193.158.2.165 to 193.158.2.182 (18 hosts)
+Switch 4 (Sw4):
+IP Range: 193.158.2.183 to 193.158.2.200 (18 hosts)
+Switch 5 (Sw5):
+IP Range: 193.158.2.201 to 193.158.2.218 (18 hosts)
+Switch 6 (Sw6):
+IP Range: 193.158.2.219 to 193.158.2.236 (18 hosts)
+Switch 7 (Sw7):
+IP Range: 193.158.2.237 to 193.158.2.253 (17 hosts)
+________________________________________________________________________________________________________________________________________________________
+Data Science Switchs: 
+Switches 1 to 7: 28 hosts each
+Switch 8: 18 hosts
+
+Subnet Mask: 255.255.255.0 (/24)
+Network Address: 193.158.1.0
+Broadcast Address: 193.158.1.255
+Usable Host Range: 193.158.1.1 to 193.158.1.254
+Total Usable Hosts: 254
+
+Switch 1 (Sw1):
+Host IP Range: 193.158.1.1 to 193.158.1.28 (28)
+Switch 2 (Sw2):
+Host IP Range: 193.158.1.29 to 193.158.1.56 (28)
+Switch 3 (Sw3):
+Host IP Range: 193.158.1.57 to 193.158.1.84 (28)
+Switch 4 (Sw4):
+Host IP Range: 193.158.1.85 to 193.158.1.112 (28)
+Switch 5 (Sw5):
+Host IP Range: 193.158.1.113 to 193.158.1.140 (28)
+Switch 6 (Sw6):
+Host IP Range: 193.158.1.141 to 193.158.1.168 (28)
+Switch 7 (Sw7):
+Host IP Range: 193.158.1.169 to 193.158.1.196 (28)
+Switch 8 (Sw8):
+Host IP Range: 193.158.1.197 to 193.158.1.212 (18)
+________________________________________________________________________________________________________________________________________________________
+Routers:
+
+Number of Routers: 8
+Relation between each router: 2
+
+Network: 10.0.0.0
+
+10.0.0.0/30 - Backbone to Data Science
+10.0.0.4/30 - Backbone to AI
+10.0.0.8/30 - Backbone to CS
+10.0.0.12/30 - Backbone to Business
+10.0.0.16/30 - Backbone to Media
+10.0.0.20/30 - Backbone to General
+10.0.0.24/30 - Backbone to Special
+
+Netmask: 255.255.255.252
+________________________________________________________________________________________________________________________________________________________
+General Server IP: 172.125.12.9
+Special Server IP: 174.125.12.9
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
