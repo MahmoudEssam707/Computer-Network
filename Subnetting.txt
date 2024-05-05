@@ -116,7 +116,8 @@ Relation between each router: 2
 Network: 10.0.0.0
 
 10.0.0.0/30 - Backbone to Data Science
-10.0.0.4/30 - Backbone to AI
+10.0.0.4/30 
+- Backbone to AI
 10.0.0.8/30 - Backbone to CS
 10.0.0.12/30 - Backbone to Business
 10.0.0.16/30 - Backbone to Media
@@ -127,18 +128,3 @@ Netmask: 255.255.255.252
 ________________________________________________________________________________________________________________________________________________________
 General Server IP: 172.125.12.9
 Special Server IP: 174.125.12.9
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
