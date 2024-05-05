@@ -83,7 +83,7 @@ IP Range: 193.158.2.237 to 193.158.2.253 (17 hosts)
 ________________________________________________________________________________________________________________________________________________________
 Data Science Switchs: 
 Switches 1 to 7: 28 hosts each
-Switch 8: 18 hosts
+Switch 8: 16 hosts
 
 Subnet Mask: 255.255.255.0 (/24)
 Network Address: 193.158.1.0
@@ -106,18 +106,17 @@ Host IP Range: 193.158.1.141 to 193.158.1.168 (28)
 Switch 7 (Sw7):
 Host IP Range: 193.158.1.169 to 193.158.1.196 (28)
 Switch 8 (Sw8):
-Host IP Range: 193.158.1.197 to 193.158.1.212 (18)
+Host IP Range: 193.158.1.197 to 193.158.1.210 (16)
 ________________________________________________________________________________________________________________________________________________________
 Routers:
 
 Number of Routers: 8
 Relation between each router: 2
 
-Network: 10.0.0.0
+Main Network: 10.0.0.0
 
 10.0.0.0/30 - Backbone to Data Science
-10.0.0.4/30 
-- Backbone to AI
+10.0.0.4/30 - Backbone to AI
 10.0.0.8/30 - Backbone to CS
 10.0.0.12/30 - Backbone to Business
 10.0.0.16/30 - Backbone to Media
