@@ -61,25 +61,25 @@ Switches 1 to 6: 18 hosts each
 Switch 7: 17 hosts
 
 Subnet Mask: 255.255.255.128 (/25)
-Network Address: 193.158.2.128
-Broadcast Address: 193.158.2.255
-Usable Host Range: 193.158.2.129 to 193.158.2.254
+Network Address: 193.158.3.0
+Broadcast Address: 193.158.3.127
+Usable Host Range: 193.158.3.1 to 193.158.3.126
 Total Usable Hosts: 126
 
 Switch 1 (Sw1):
-IP Range: 193.158.2.129 to 193.158.2.146 (18 hosts)
+IP Range: 193.158.3.1 to 193.158.3.18 (18 hosts)
 Switch 2 (Sw2):
-IP Range: 193.158.2.147 to 193.158.2.164 (18 hosts)
+IP Range: 193.158.3.19 to 193.158.3.36 (18 hosts)
 Switch 3 (Sw3):
-IP Range: 193.158.2.165 to 193.158.2.182 (18 hosts)
+IP Range: 193.158.3.37 to 193.158.3.54 (18 hosts)
 Switch 4 (Sw4):
-IP Range: 193.158.2.183 to 193.158.2.200 (18 hosts)
+IP Range: 193.158.3.55 to 193.158.3.72 (18 hosts)
 Switch 5 (Sw5):
-IP Range: 193.158.2.201 to 193.158.2.218 (18 hosts)
+IP Range: 193.158.3.73 to 193.158.3.90 (18 hosts)
 Switch 6 (Sw6):
-IP Range: 193.158.2.219 to 193.158.2.236 (18 hosts)
+IP Range: 193.158.3.91 to 193.158.3.108 (18 hosts)
 Switch 7 (Sw7):
-IP Range: 193.158.2.237 to 193.158.2.253 (17 hosts)
+IP Range: 193.158.3.109 to 193.158.3.125 (17 hosts)
 ________________________________________________________________________________________________________________________________________________________
 Data Science Switchs: 
 Switches 1 to 7: 28 hosts each
