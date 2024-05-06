@@ -64,6 +64,7 @@ Subnet Mask: 255.255.255.128 (/25)
 Network Address: 193.158.3.0
 Broadcast Address: 193.158.3.127
 Usable Host Range: 193.158.3.1 to 193.158.3.126
+GATEWAY : 193.158.3.126
 Total Usable Hosts: 126
 
 Switch 1 (Sw1):
